@@ -1,0 +1,35 @@
+:root {
+  --bg: #0d0d18;
+  --card: #1a1a29;
+  --card-border: rgba(255, 255, 255, 0.07);
+  --input-bg: #262639;
+  --input-border: #34344b;
+  --text: #f1f1f6;
+  --muted: #a3a3ba;
+  --placeholder: #6e6e8a;
+  --accent: #7c5cff;
+  --accent-2: #9d6bff;
+  --link: #8b7cff;
+  --danger: #ff6b81;
+
+  color-scheme: dark;
+  font-family: 'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial,
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+}
